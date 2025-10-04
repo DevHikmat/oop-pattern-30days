@@ -1,8 +1,8 @@
-import { IBeverage } from "../interfaces/IBevarage";
+import { IBevarage } from "../interfaces/IBevarage";
 
-export class Cappuccino implements IBeverage {
-  name = "Cappuccino";
-  water = 60;
-  milk = 100;
-  coffee = 18;
+export class Cappuccino implements IBevarage{
+    name = "Cappuccino";
+    water = 60;
+    milk = 50;
+    coffee = 20;
 }
